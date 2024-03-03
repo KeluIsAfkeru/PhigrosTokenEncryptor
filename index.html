@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小鱼SessionToken加密器</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.font.im/css2?family=Roboto:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <header>
+                <h1>小鱼SessionToken加密器</h1>
+            </header>
+            <main>
+                <div class="input-group" data-aos="fade-right" data-aos-duration="1000">
+                    <input type="text" id="tokenInput" class="token-input" placeholder="输入你的Token" aria-label="Token输入">
+                    <button id="encryptBtn" class="btn encrypt-btn">加密</button>
+                </div>
+                <div class="output-group" data-aos="fade-left" data-aos-duration="1000">
+                    <p id="encryptedToken" class="encrypted-token"></p>
+                    <button id="copyBtn" class="btn copy-btn">复制</button>
+                </div>
+                <p id="successMessage" class="success-message" data-aos="zoom-in"></p>
+                
+                <!-- 新增赞助支持者部分 -->
+                <section class="sponsors" data-aos="fade-up" data-aos-duration="1000">
+                    <h2>支持</h2>
+                    <ul class="sponsor-list">
+                        <li>废酱</li>
+                        <li>空吧哇</li>
+                        <li>Polan</li>
+                        <li>柠檬姐</li>
+                        <li>枫叶</li>
+                        <li>寄姐</li>
+                        <li>雪狐</li>
+                        <li>贤哥</li>
+                        <li>墨邪</li>
+                        <li>墨玄玖</li>
+                        <li>寄姐</li>
+                    </ul>
+                </section>
+            </main>
+            <footer data-aos="fade" data-aos-duration="1000">
+                <p class="author">By：笨笨的克鲁</p>
+            </footer>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
